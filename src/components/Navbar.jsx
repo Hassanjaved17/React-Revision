@@ -1,4 +1,4 @@
-import React from "react";
+// import react from "react";
 import {
   Disclosure,
   DisclosureButton,
@@ -21,7 +21,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const Navbar = () => {
+const Navbar = ( { color } ) => {
   return (
     <Disclosure
       as="nav"
