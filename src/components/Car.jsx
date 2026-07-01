@@ -1,10 +1,10 @@
-import React from 'react'
+// import React from 'react'
 
 const Car = (props) => {
     return (
         <div>
             
-            <h1>I am a {props.color} car</h1>
+            <h1>I am a {props.color} car</h1 > 
         </div>
     )
 }
